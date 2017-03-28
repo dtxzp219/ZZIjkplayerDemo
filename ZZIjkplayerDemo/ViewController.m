@@ -157,6 +157,9 @@
 
 
 
+- (IBAction)fullScreen:(id)sender {
+    //全屏
+}
 
 - (IBAction)play_btn:(id)sender {
     if (![self.player isPlaying]) {
